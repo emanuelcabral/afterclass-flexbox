@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+
+/* font-family: 'Alkalami', serif;
+font-family: 'Chicle', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Gantari', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Kenia', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Zen Dots', cursive; */
+
+:root{
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Raleway', sans-serif;
+    --color0: #fff;
+    --color3: rgb(1, 255, 1);
+    --color4: rgb(2, 74, 2);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.barra{
+    height: 80px;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    /* border: 2px solid #000; */
+    background-image: url(img/logo3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    backdrop-filter: drop-shadow(0px 0px 5px orange);
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--color4);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font1);
+}
+
+.resaltado{
+    background-color: var(--color4);
+    color: #fff !important;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(66, 14, 14);
+    background-image: url(img/background-gf90925b2d_1920.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    width: 65%;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--font1);
+    font-size: 50px;
+}
+
+.call p{
+    font-family: var(--font2);
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call a{
+    color: var(--color0);
+    font-family: var(--font1);
+    text-decoration: none;
+    /* border: 5px solid var(--color3); */
+    background-color: var(--color4);
+    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+
+}
+
+.sec{
+    width: 100%;
+    height: 350px;
+    background-color: var(--color4);
+    color: #fff;
+    font-family: var(--font1);
+    display: flex;
+}
+
+.s-img{
+    height: 350px;
+    width: 60%;
+    background-image: url(img/smoothie-ga8c038282_1920.jpg);
+    background-size: cover;
+}
+.s-img2{
+    background-image: url(img/cherries-g422dba11d_1920.jpg);
+}
+.s-img3{
+    background-image: url(img/snack-g0e97d714b_1920.jpg);
+}
+.s-img4{
+    background-image: url(img/food-gc001cb935_1920.jpg);
+}
+.sec aside{
+    width: 40%;
+    height: 350px;
+    background-color: var(--color4);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside h3{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+aside p{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+aside a{
+    background-color: #fff;
+    color: var(--color4);
+    padding: 10px 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: #000;
+    color: var(--color0);
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font2);
+    padding: 20px;
+}
+
+.foot1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.f1 ul{
+    list-style: none;
+}
+
+.f1 ul a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.foot1 div{
+    width: 30%;
+}
+
+.foot1 div h4{
+    background-color: gray;
+}
+
+.foot1 p{
+    font-size: 25px;
+}
+
+footer div p{
+    width: 100%;
+    background-color: var(--color4);
+}
+.f2 p{
+    font-size: 20px;
+}
+
+.foot2{
+    background-image: url(img/background-gf90925b2d_1920.jpg);
+    margin-top: 20px;
+}
